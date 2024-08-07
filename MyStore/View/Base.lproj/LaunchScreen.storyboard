@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AppLogo" translatesAutoresizingMaskIntoConstraints="NO" id="xl8-B1-aI2">
+                                <rect key="frame" x="77" y="220" width="239" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="FCR-gf-MQl"/>
+                                    <constraint firstAttribute="width" constant="239" id="lZQ-El-yTU"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxc-4h-EEi">
+                                <rect key="frame" x="138.66666666666666" y="410" width="115.66666666666666" height="41.666666666666686"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Shoppie">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="GillSans"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ri-OX-51p">
+                                <rect key="frame" x="81" y="501" width="231" height="26"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Do Shopping at your Ease">
+                                        <attributes>
+                                            <font key="NSFont" size="22" name="GillSans"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.88809581579999997" green="0.77832907009999996" blue="0.079390615999999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xl8-B1-aI2" secondAttribute="trailing" constant="77" id="6ct-vF-0xE"/>
+                            <constraint firstItem="xl8-B1-aI2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="Ol4-3S-GES"/>
+                            <constraint firstItem="xl8-B1-aI2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="161" id="QrX-1f-tOY"/>
+                            <constraint firstItem="0Ri-OX-51p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="81" id="VFu-nG-vkA"/>
+                            <constraint firstItem="yxc-4h-EEi" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="WfW-gW-kNA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0Ri-OX-51p" secondAttribute="trailing" constant="81" id="cw1-NP-FTa"/>
+                            <constraint firstItem="yxc-4h-EEi" firstAttribute="top" secondItem="xl8-B1-aI2" secondAttribute="bottom" id="pnW-Kb-4Cr"/>
+                            <constraint firstItem="0Ri-OX-51p" firstAttribute="top" secondItem="yxc-4h-EEi" secondAttribute="bottom" constant="49.329999999999998" id="uFv-jH-nW5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-25.190839694656489" y="85.91549295774648"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AppLogo" width="293" height="227"/>
+    </resources>
+</document>
